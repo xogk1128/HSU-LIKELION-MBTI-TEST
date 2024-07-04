@@ -41,7 +41,7 @@ body {
 }
 
 #result > #qu {
-    color: rgb(255, 140, 0);
+    color: #198754;
     font-size: 1.5rem;
 }
 
@@ -67,7 +67,7 @@ body {
 #start > p {
     font-size: 2.5rem;
     margin-top: 5vh;
-    color: orange;
+    color: #198754;
 }
 
 #start > #maker {
@@ -102,7 +102,7 @@ body {
     height: 300px;
     display: block;
     margin: 10vw auto 0 auto;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 #result > #mbti {
@@ -116,10 +116,10 @@ body {
 
 .result-btn button {
     font-size: 1.5rem;
-    background-color: #ffc107;
+
     border: none;
 }
 
 .result-btn button:hover {
-    background-color: #e0a800;
+    background-color: rgb(69, 168, 69);
 }
